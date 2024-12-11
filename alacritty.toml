@@ -102,8 +102,8 @@ dynamic_title = true
 decorations = "buttonless"
 decorations_theme_variant = "Dark"
 dynamic_padding = true
-opacity = 0.6
-title = "Alacritty@Garuda"
+opacity = 0.5
+title = "Alacritty"
 
 [window.class]
 general = "Alacritty"
