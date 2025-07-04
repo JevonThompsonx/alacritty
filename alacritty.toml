@@ -15,17 +15,26 @@ style = "Underline"
 [env]
 TERM = "xterm-256color"
 
-
 [font]
-# Set the main font family and style
-normal = { family = "FiraCode Nerd Font", style = "Regular" }
-bold = { family = "FiraCode Nerd Font", style = "Bold" }
-italic = { family = "FiraCode Nerd Font", style = "Regular" } # Use Regular if italic is unavailable
-bold_italic = { family = "FiraCode Nerd Font", style = "Bold" }
+size = 14.0 
+[font.normal]
+family = "FiraCode Nerd Font"
+style = "Regular"
 
+[font.bold]
+family = "FiraCode Nerd Font"
+style = "Bold"
+
+[font.italic]
+family = "FiraCode Nerd Font"
+style = "Regular"  # or omit if you don’t need true italic
+
+[font.bold_italic]
+family = "FiraCode Nerd Font"
+style = "Bold"
 
 # Adjust font size
-size = 14.0
+
 
 [[keyboard.bindings]]
 action = "Paste"
